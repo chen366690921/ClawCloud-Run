@@ -231,8 +231,6 @@ Authenticator app ✓
 4. 完成 ✅
 ```
 
-![Mobile验证](./1.png)
-
 ---
 
 ### 如果使用 2FA 验证
@@ -243,9 +241,6 @@ Authenticator app ✓
 3. 在 Telegram 发送: /code 847293
 4. 完成 ✅
 ```
-
-![2FA验证](./4.png)
-
 ---
 
 ## ✅ 完成检查

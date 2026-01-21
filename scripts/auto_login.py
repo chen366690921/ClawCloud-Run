@@ -6,21 +6,6 @@ ClawCloud 自动登录脚本
 - Telegram 通知
 """
 
-"""
-ClawCloud 自动登录脚本（按你的2点需求修正版）
-
-改动点：
-1) 不再用 /apps 做“是否登录成功”的判断；
-   成功条件改为：URL 出现 *.run.claw.cloud 且最终不在 /signin（也不在登录页）。
-2) 支持指定区域：通过环境变量 CLAW_REGION 指定，例如 ap-northeast-1
-   - 例如：CLAW_REGION=ap-northeast-1  -> https://ap-northeast-1.run.claw.cloud
-   - 如果不指定，则使用脚本检测到的区域；都没有则回退到 us-east-1
-
-可选：
-- CLAW_REGIONS：逗号分隔，多区域访问保活（不影响成功判断，仅访问）
-  例如：CLAW_REGIONS=us-east-1,ap-northeast-1
-"""
-
 import base64
 import os
 import re

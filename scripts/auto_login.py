@@ -2,7 +2,7 @@
 ClawCloud 自动登录脚本
 - 支持 Hysteria2 代理（用于通过人机验证）
 - 自动检测区域跳转（如 ap-southeast-1.console.claw.cloud）
-- 等待设备验证批准（60秒）
+- 等待设备验证批准（30秒）
 - 每次登录后自动更新 Cookie
 - Telegram 通知
 """

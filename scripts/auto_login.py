@@ -639,6 +639,7 @@ class AutoLogin:
             # 检测区域域名
             if re.match(r'^https://[a-z]+-[a-z]+-\d+\.run\.claw\.cloud', url):
                 self.log("重定向到区域 run.claw.cloud 成功！", "SUCCESS")
+                self.log(url, "SUCCESS")
                 self.detect_region(url)
                 return True
             if re.match(r'^https://[a-z]+-[a-z]+-\d+\.console\.claw\.cloud', url):
